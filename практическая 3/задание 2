@@ -1,0 +1,14 @@
+my_list = [1, 2, 3]
+print(my_list)
+my_list[0] = 130 #первое значение в списке начинается с 0, из-за этого я поменял первое число на 130. Значение поменялось
+print(my_list)
+
+my_tuple = (1, 2, 3)
+print(my_tuple)
+my_tuple[0] = 1001 #при попытке изменить первое значение выдает ошибку TypeError: 'tuple' object does not support item assignment, следовательно нельзя менять кортеж
+print(my_tuple)
+
+my_string = "cat"
+print(my_string)
+my_string[0] = 'b' #при попытке изменить букву выдает ошибку TypeError: 'str' object does not support item assignment, следовательно нельзя менять строку
+print(my_string)
